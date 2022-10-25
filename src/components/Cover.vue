@@ -1,6 +1,5 @@
 <script setup>
 import { ref } from 'vue'
-import CoverStyle from '../components/CoverStyle.vue'
 const CoverLinks = ref([
   { title: '文章', link: 'https://tripper.press/' },
   { title: '摄影', link: '#/gallery' },
@@ -34,6 +33,16 @@ console.log(CoverLinks);
 <style scoped>
 .cover {
   height: calc(100vh - 80px);
+  background:
+    radial-gradient(circle at 10% 10%,
+      #90caaf80 10%,
+      #ffffff00 100%),
+    radial-gradient(circle at 90% 90%,
+      #71afdd80 10%,
+      #ffffff00 100%) !important;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .cover-1 {

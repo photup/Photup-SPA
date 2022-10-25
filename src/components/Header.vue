@@ -29,7 +29,7 @@ let getdata = 1
 <template>
   <div class="itp-float-bar shadow-itp">
     <div class="left-item">
-      <a class="itp-float-bar-item" href="/" title="Photup">
+      <a class="itp-float-bar-item font-bold" href="/" title="Photup">
         Photup.
       </a>
     </div>
